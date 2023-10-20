@@ -24,5 +24,5 @@ end)
 
 task.wait(1)
 
-hitbox:Disconnect()
+hitbox.Connection:Disconnect()
 ```

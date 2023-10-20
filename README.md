@@ -8,8 +8,8 @@ Create simple box shaped hitboxes for humanoid detection.
 
 ### Functions
 > * module.new: (part: BasePart, offset: CFrame, size: Vector3, interval: number, overlapParams: OverlapParams) -> ({
-> *  Connection: RBXScriptConnection,
-> *  HumanoidDetected: RBXScriptSignal,
+	> *  Connection: RBXScriptConnection,
+	> *  HumanoidDetected: RBXScriptSignal,
 > * })
 
 # Example Script

@@ -9,6 +9,9 @@ Create simple box shaped hitboxes for humanoid detection.
 ### Functions
 > * module.new: (part: BasePart, offset: CFrame, size: Vector3, interval: number, overlapParams: OverlapParams) -> ({Connection: RBXScriptConnection, HumanoidDetected: RBXScriptSignal})
 
+# Roblox Marketplace
+https://create.roblox.com/marketplace/asset/15117466504/SimpleHitbox
+
 # Example Script
 ```lua
 local offset = CFrame.new(0, 0, -3)

@@ -7,10 +7,18 @@ Create simple box shaped hitboxes for humanoid detection.
 > if true, server will tell the client to visualize the hitbox
 
 ### Functions
-> * module.new: (part: BasePart, offset: CFrame, size: Vector3, interval: number, overlapParams: OverlapParams) -> ({
-> * Connection: RBXScriptConnection,
-> * HumanoidDetected: RBXScriptSignal,
-> * })
+> * module.new
+> -- Arguments:
+		part: BasePart,
+		offset: CFrame,
+		size: Vector3,
+		interval: number,
+		overlapParams: OverlapParams,
+> -- Returns:
+		{
+			Connection: RBXScriptConnection,
+			HumanoidDetected: RBXScriptSignal,
+		}
 
 # Example Script
 ```lua

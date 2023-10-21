@@ -1,6 +1,6 @@
 [package]
 name = "highflowey/simplehitbox"
-version = "1.0.4"
+version = "1.0.35"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 
